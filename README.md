@@ -17,7 +17,7 @@
 
 ![Tech Layoff Hiring Analysis Dashboard](dashboard.png)
 
-> *An interactive Excel dashboard synthesizing 60M+ layoff records across 7 tech sectors — built for clarity, built for decisions.*
+> *An interactive Excel dashboard synthesizing 2998 layoff records across 7 tech sectors — built for clarity, built for decisions.*
 
 ---
 
