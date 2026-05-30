@@ -1,115 +1,146 @@
-# 📊 Layoff & Hiring Trend Dashboard
+<div align="center">
 
-An interactive **Excel dashboard** analyzing tech industry layoffs, hiring trends, and AI-driven workforce disruption across 12,000 records spanning 2024–2026.
+# 🔍 Tech Layoff & Hiring Analysis Dashboard
 
----
+### *Decoding the Great Tech Disruption — Layoffs, AI Risk, and What Comes Next*
 
-![Layoff Hiring Trend Dashboard](dashboard.png)
+[![Excel](https://img.shields.io/badge/Built%20with-Microsoft%20Excel-217346?style=for-the-badge&logo=microsoft-excel&logoColor=white)](https://www.microsoft.com/excel)
+[![Data Analysis](https://img.shields.io/badge/Type-Data%20Analysis-blue?style=for-the-badge&logo=databricks&logoColor=white)]()
+[![Industries](https://img.shields.io/badge/Industries%20Covered-7-orange?style=for-the-badge)]()
+[![Years](https://img.shields.io/badge/Timeline-2024–2026-red?style=for-the-badge)]()
 
----
-
-## 🔍 Overview
-
-This project explores the evolving landscape of tech workforce changes — from mass layoffs driven by AI automation to emerging hiring patterns across industries and geographies. The dashboard surfaces key signals for HR leaders, data analysts, and tech professionals tracking the future of work.
-
-## 📁 Dataset
-
-**File:** `tech_layoffs_hiring_trends_elite_v2.csv`
-
-| Attribute | Detail |
-|-----------|--------|
-| **Rows** | 12,000 records |
-| **Columns** | 23 features |
-| **Years Covered** | 2024, 2025, 2026 |
-| **Industries** | AI, Cloud, Cybersecurity, E-Commerce, FinTech, Gaming, Social Media |
-| **Company Sizes** | Startup, Mid-size, Enterprise, Big Tech |
-| **Countries** | 6 (USA, Canada, UK, Germany, India, Singapore) |
-
-### Key Columns
-
-| Column | Description |
-|--------|-------------|
-| `company_name` | Name of the company |
-| `industry` | Tech sector |
-| `country` | Country of operation |
-| `company_size` | Size tier of the company |
-| `layoffs_count` | Number of employees laid off |
-| `reason_for_layoffs` | AI Automation, Cost Cutting, Restructuring, etc. |
-| `ai_replacement_risk` | Risk score for AI job displacement |
-| `open_roles` | Number of open positions |
-| `hiring_trend` | Upward / Downward / Stable |
-| `remote_jobs_percentage` | % of roles offered remotely |
-| `salary_budget_change` | YoY change in salary budgets |
-| `employee_sentiment` | Employee satisfaction score (0–10) |
-| `job_security_score` | Perceived job security (0–10) |
-| `market_condition` | Bull Market / Bear Market / Recession |
+</div>
 
 ---
 
-## 📈 Dashboard Highlights
+## 📊 Dashboard Preview
+
+![Tech Layoff Hiring Analysis Dashboard](dashboard.png)
+
+> *An interactive Excel dashboard synthesizing 60M+ layoff records across 7 tech sectors — built for clarity, built for decisions.*
+
+---
+
+## 🎯 Project Overview
+
+The tech industry is undergoing one of its most turbulent restructuring waves in history. This project dives deep into **2998 layoff records** spanning **2024–2026** across 7 major tech industries to uncover patterns in workforce reduction, AI disruption risk, hiring sentiment, and salary budget shifts.
+
+Whether you're a recruiter tracking talent pipelines, a job seeker reading the market, or a business analyst advising leadership — this dashboard turns complex workforce data into actionable intelligence.
+
+---
+
+## ✨ Key Insights at a Glance
 
 | Metric | Value |
-|--------|-------|
-| 🔴 Total Layoffs | **60,114,865** |
-| 🟢 Total Open Positions | **34,612,740** |
-| ⚠️ Major Layoff Reason | **AI Automation** |
-| 😐 Avg Employee Sentiment | **6.5 / 10** |
-
-### Visuals Included
-
-- **KPI Cards** — Total layoffs, open positions, layoff reason, and sentiment at a glance
-- **AI Replacement Risk Radar** — Sector-by-sector AI disruption risk profile
-- **Revenue Growth Donut Chart** — Geographic revenue contribution breakdown
-- **Salary Budget Change Bar Chart** — Budget shifts across company size tiers
-- **Layoffs Per Year Line Chart** — Trend lines by industry (2024–2026)
-- **Industry Slicer** — Filter all visuals dynamically by sector
+|---|---|
+| 🏢 Total Layoffs Tracked | **15069848** |
+| 💼 Total Open Positions | **9509850** |
+| 🤖 Avg. AI Automation Impact Score | **6.5 / 10** |
+| 📍 Primary Layoff Driver | **Restructuring** |
+| 📅 Timeline | **2024 – 2026** |
+| 🌍 Countries Analyzed | **6** (USA, India, UK, Canada, Germany, Singapore) |
 
 ---
 
-## 🛠️ Tools Used
+## 🗂️ What the Dashboard Covers
 
-- **Microsoft Excel** — Data modeling, pivot tables, and dashboard design
-- **Power Query** — Data cleaning and transformation
-- **Charts & Slicers** — Interactive filtering and visualization
+### 📉 Layoffs Per Year by Industry
+Tracks annual headcount reductions across **AI, Cloud, Cybersecurity, E-Commerce, FinTech, Gaming, and Social Media** — revealing which sectors are shrinking fastest and where the floor might be.
+
+### 💰 Salary Budget Change by Company Size
+Compares salary adjustment percentages across **Big Tech, Enterprise, Mid-size, and Startup** companies — critical for understanding compensation trends in a post-layoff market.
+
+### 🌐 Revenue Growth by Country
+A geographic breakdown of revenue growth percentages across 6 countries — showing where tech investment is flowing despite headcount cuts.
+
+### 🤖 AI Replacement Risk Radar
+A radar chart mapping how exposed each industry is to AI-driven role replacement — a forward-looking metric for both employers and employees.
+
+### 📊 AI Automation Impact by Industry
+Bar chart scoring each sector's automation vulnerability, helping identify which domains require the most urgent workforce reskilling.
+
+### 🔎 Company-Level Search
+Drill into any company to see its layoff count, open roles, and industry — enabling granular talent market analysis.
+
+---
+
+## 📁 Repository Structure
+
+```
+📦 tech-layoff-hiring-analysis
+ ┣ 📊 tech_layoff_hiring_analysis.xlsx   ← Interactive Excel dashboard
+ ┣ 📄 Dataset.csv                        ← Raw structured dataset
+ ┣ 🖼️ dashboard.png                      ← Dashboard screenshot
+ ┗ 📝 README.md                          ← You are here
+```
+
+---
+
+## 🧠 Data Dimensions
+
+The dataset spans multiple analytical layers:
+
+- **Layoff Volume** — by industry and year (2024, 2025, 2026)
+- **Salary Budget Changes** — by company size tier
+- **Revenue Growth %** — by country (Canada 17.82%, Germany 15.84%, India 17.94%, Singapore 17.86%, UK 16.29%, USA 16.42%)
+- **AI Replacement Risk Scores** — per industry (scale of 1–10)
+- **Layoff Reasons** — AI Automation · Overhiring Correction · Restructuring · Cost Cutting · Market Slowdown
+- **Company-Level Metrics** — individual layoff counts and open roles
+
+---
+
+## 🛠️ Tools & Techniques
+
+| Tool | Usage |
+|---|---|
+| **Microsoft Excel** | Dashboard design, charts, slicers, pivot tables |
+| **Power Query** | Data transformation and cleaning |
+| **Advanced Charts** | Radar, bar, line, pie, and KPI cards |
+| **Dynamic Slicers** | Industry-level filtering in real time |
+| **Conditional Formatting** | Visual hierarchy and data callouts |
+
+---
+
+## 💡 Why This Project Stands Out
+
+> **"Most layoff dashboards stop at the numbers. This one asks: what happens next?"**
+
+- 📌 Combines **historical layoffs + future hiring signals** in one view
+- 🤖 Quantifies **AI disruption risk** per industry — rare in public datasets
+- 🌍 Adds **country-level revenue context** that most workforce analyses skip
+- 🏢 Enables **company-specific drill-down** for targeted research
+- 📐 Designed with recruiter and analyst workflows in mind
 
 ---
 
 ## 🚀 How to Use
 
-1. Clone or download this repository
-2. Open the `.xlsx` file in **Microsoft Excel 2016 or later**
-3. Navigate to the **Dashboard** worksheet for the interactive view
-4. Use the **Industry slicer** on the left panel to filter by sector
-5. Explore individual worksheets for raw data and pivot analysis
-
-> ⚠️ Enable macros if prompted, and ensure your Excel version supports slicers and radar charts.
+1. **Clone or download** this repository
+2. Open `tech_layoff_hiring_analysis.xlsx` in Microsoft Excel (2016 or later recommended)
+3. Use the **Industry slicer** (left panel) to filter by sector
+4. Explore the **KPI cards** at the top for macro-level signals
+5. Search company-specific data using the **Company Name** input field
 
 ---
 
-## 💡 Key Insights
+## 📬 Connect With Me
 
-- **AI Automation** is the #1 driver of layoffs across all sectors, overtaking traditional cost-cutting
-- **Big Tech** commands the highest salary budget growth (+6.15%), while Startups lag at +5.56%
-- **Cybersecurity and Cloud** show the lowest AI replacement risk, making them relatively safer sectors
-- **India and Singapore** are gaining revenue share, reflecting shifting tech investment eastward
-- Despite high layoffs, **34.6M open roles** indicate a significant skills-gap dynamic rather than pure job loss
+<div align="center">
 
----
+If this project sparked ideas or you'd like to collaborate on data analytics work, let's connect!
 
-## 📂 Repository Structure
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](www.linkedin.com/in/chirag-modi-3001rookie)
+[![Portfolio](https://img.shields.io/badge/Portfolio-Visit-FF5722?style=for-the-badge&logo=google-chrome&logoColor=white)](https://github.com/Rookie010101)
+[![Email](https://img.shields.io/badge/Email-Reach%20Out-EA4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:chiragmodi2027@gmail.com)
 
-```
-📦 layoff-hiring-trend-dashboard
- ┣ 📊 tech_layoffs_hiring_trends_elite_v2.csv   ← Raw dataset
- ┣ 📊 Layoff_Hiring_Dashboard.xlsx              ← Excel dashboard file
- ┣ 🖼️ dashboard.png                             ← Dashboard screenshot
- ┗ 📄 README.md                                 ← You are here
-```
+</div>
 
 ---
 
-## 🙋 About
+<div align="center">
 
-Built as a data analytics portfolio project to demonstrate skills in data storytelling, dashboard design, and workforce trend analysis using real-world inspired tech layoff data.
+⭐ **If you found this useful, drop a star — it helps others discover the project!** ⭐
 
-Feel free to ⭐ star this repo if you found it useful, or open an issue for suggestions!
+*Built with curiosity, data, and a belief that every layoff statistic represents a real person's story.*
+
+</div>
